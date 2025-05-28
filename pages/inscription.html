@@ -12,8 +12,14 @@
 </head>
 
 <body class="bgcolor">
-    <div class="tete img-background d-flex mx-auto">
-        <h1 class="d-flex align-items-center justify-content-center mx-auto">Jeu de rôle</h1>
+    <div class="tete d-flex mx-auto border">
+        <h1 class="d-flex align-items-center justify-content-center mx-auto titre"><img src="../assets/img/logo.png"
+                alt="Logo d'AdoubeUnMec" class="logo">AdoubeUnMec</h1>
+    </div>
+
+    <div class="tete d-flex mx-auto border Cover">
+        <h1 class="d-flex align-items-center justify-content-center mx-auto titre text-white">Pour maîtres et joueurs
+        </h1>
     </div>
 
     <div class="bgcolor text-secondary">
@@ -58,7 +64,7 @@
                             name="phone" placeholder="Votre n° de téléphone*" required>
                     </div>
                     <div class="col-lg-6 d-lg-flex justify-content-start">
-                        <select class="form-select w-50 mx-auto mx-lg-5 my-3 my-lg-3"
+                        <select class="form-select w-50 mx-auto mx-lg-5 my-3 my-lg-3 ellipse"
                             aria-label="Default select example">
                             <option selected>Comment vous nous avez connu ?</option>
                             <option value="1">Via un proche</option>
@@ -72,25 +78,25 @@
                     <div class="col-lg-6">
                         <div class="form-check d-flex justify-content-start radiostar">
                             <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
-                            <label class="form-check-label text-white" for="radioDefault1">
+                            <label class="form-check-label " for="radioDefault1">
                                 Je souhaite être contacté par mail
                             </label>
                         </div>
                         <div class="form-check d-flex justify-content-start radiostar">
                             <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                            <label class="form-check-label text-white" for="radioDefault2">
+                            <label class="form-check-label" for="radioDefault2">
                                 Je souhaite être contacté par téléphone
                             </label>
                         </div>
                         <div class="form-check d-flex justify-content-start radiostar">
-                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                            <label class="form-check-label text-white" for="radioDefault2">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3" checked>
+                            <label class="form-check-label" for="radioDefault2">
                                 Je ne souhaite pas être contacté
                             </label>
                         </div>
                     </div>
                     <div class="col-lg-6 d-lg-flex justify-content-start">
-                        <select class="form-select w-50 mx-auto mx-lg-5 my-3 my-lg-3"
+                        <select class="form-select w-50 mx-auto mx-lg-5 my-3 my-lg-3 ellipse"
                             aria-label="Default select example" required>
                             <option selected>Quel rôle occupé vous ?*</option>
                             <option value="1">Maître du jeu</option>
@@ -102,7 +108,7 @@
                     <div class="col-lg-12 d-flex justify-content-center mt-lg-5 mt-3">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                            <label class="form-check-label text-white" for="checkDefault" required>
+                            <label class="form-check-label" for="checkDefault" required>
                                 J'accepte les conditions générales et la politique de confidentialité
                             </label>
                         </div>
@@ -115,6 +121,20 @@
                 inscription</button>
         </form>
     </div>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 col-12">
+                    Ce site est créer dans le cadre de l'Afpa pour s'exercer.
+                </div>
+                <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                    <i class="bi bi-instagram icone mx-3"></i> <i class="bi bi-twitter-x icone mx-3"></i><i
+                        class="bi bi-youtube icone mx-3"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

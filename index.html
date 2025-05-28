@@ -5,18 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAS MERCI ALEX</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 
 
 
 
-<body>
+<body class="bgcolor">
+
+    <div class="tete img-background d-flex mx-auto">
+        <h1 class="d-flex align-items-center justify-content-center mx-auto">Jeu de rôle</h1>
+    </div>
+
+
+    <div class="bgcolor text-secondary">
+
+        <p class="d-flex justify-content-center h1 py-5">Veuillez vous connecter</p>
+
+        <form action="pages/Hello.html" method="get">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-6 d-lg-flex justify-content-end">
+                        <input type="email" class="form-control w-50 mx-auto mx-lg-0 my-3 my-lg-0" id="email"
+                            name="Mail" placeholder="Adresse@email" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="password" class="form-control w-50 mx-auto mx-lg-0 my-3 my-lg-0" id="password"
+                            name="password" placeholder="Mot de passe" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3 d-flex justify-content-center mx-auto my-5">Se
+                connecter</button>
+        </form>
+
+        <p class="d-flex justify-content-center"><a href="/pages/inscription.html">Pas encore inscrit</a></p>
+    </div>
 
 </body>
-
-
-
-
 
 </html>

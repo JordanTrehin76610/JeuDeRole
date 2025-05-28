@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAS MERCI ALEX</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body class="bgcolor">
+    <div class="tete img-background d-flex mx-auto">
+        <h1 class="d-flex align-items-center justify-content-center mx-auto">Jeu de rôle</h1>
+    </div>
+
+    <div class="bgcolor text-secondary">
+        <p class="d-flex justify-content-center pt-3 h1">Page d'inscription</p>
+        <p class="d-flex justify-content-center">* Obligatoire</p>
+
+        <form action="confirmation.html" method="get">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-6 d-lg-flex justify-content-end">
+                        <input type="text" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="Lname"
+                            name="Lname" placeholder="Nom*" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="Fname"
+                            name="Fname" placeholder="Prénom*" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 d-lg-flex justify-content-end">
+                        <input type="text" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="Adresse"
+                            name="Adresse" placeholder="Adresse*" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="email" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="email"
+                            name="Mail" placeholder="Adresse@email*" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 d-lg-flex justify-content-end">
+                        <input type="password" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="password"
+                            name="password" placeholder="Mot de passe*" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="password" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="password"
+                            name="password" placeholder="Confirmer votre mot de passe*" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 d-lg-flex justify-content-end">
+                        <input type="number" class="form-control w-50 mx-auto mx-lg-5 my-3 my-lg-3" id="phone"
+                            name="phone" placeholder="Votre n° de téléphone*" required>
+                    </div>
+                    <div class="col-lg-6 d-lg-flex justify-content-start">
+                        <select class="form-select w-50 mx-auto mx-lg-5 my-3 my-lg-3"
+                            aria-label="Default select example">
+                            <option selected>Comment vous nous avez connu ?</option>
+                            <option value="1">Via un proche</option>
+                            <option value="2">Grâce à une video</option>
+                            <option value="3">Grâce aux réseaux sociaux</option>
+                            <option value="4">Je sais pas, je suis confus</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-check d-flex justify-content-start radiostar">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                            <label class="form-check-label text-white" for="radioDefault1">
+                                Je souhaite être contacté par mail
+                            </label>
+                        </div>
+                        <div class="form-check d-flex justify-content-start radiostar">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                            <label class="form-check-label text-white" for="radioDefault2">
+                                Je souhaite être contacté par téléphone
+                            </label>
+                        </div>
+                        <div class="form-check d-flex justify-content-start radiostar">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                            <label class="form-check-label text-white" for="radioDefault2">
+                                Je ne souhaite pas être contacté
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-flex justify-content-start">
+                        <select class="form-select w-50 mx-auto mx-lg-5 my-3 my-lg-3"
+                            aria-label="Default select example" required>
+                            <option selected>Quel rôle occupé vous ?*</option>
+                            <option value="1">Maître du jeu</option>
+                            <option value="2">Joueur</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center mt-lg-5 mt-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label text-white" for="checkDefault" required>
+                                J'accepte les conditions générales et la politique de confidentialité
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-3 d-flex justify-content-center mx-auto my-3"
+                required>Finaliser mon
+                inscription</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

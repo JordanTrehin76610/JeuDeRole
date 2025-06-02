@@ -15,8 +15,11 @@
 footer {
   background-color: black;
   color: white;
-  padding: 5rem;
-  margin-top: 5rem;
+  position: absolute;
+}
+
+body {
+  position: relative;
 }
 
 .icone {
